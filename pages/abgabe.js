@@ -6,18 +6,16 @@ import Image from "next/image";
 import React from "react";
 
 
-export default function IndexPage() {
+export default function ThirdPage() {
     const router = useRouter()
 
     return (
         <div className={styles.posts}>
-            <h1 style={{color: 'blue'}}>Kunde schickt Anfrage Per:</h1>
+            <h1 style={{color: 'pink'}}>Produkt wurde ausgeliefert</h1>
             {/* eslint-disable-next-line react/jsx-no-undef */}
-            <Image width="320" height="239" src={"/email-icon--endless-icons-20.png"}></Image>
-            <h1 style={{color: 'blue'}}>Wurde das Mail erfolgreich eingereicht?</h1>
+            <Image width="320" height="239" src={"/checkmark-color-icon-successfully-tested-tick-mark-quality-assurance-approved-verification-and-validation-quality-badge-isolated-illustration-vector.jpg"}></Image>
             <div>
-                <Link href={`/first`}><Button>Ja</Button></Link>
-                <Link href={`/desaster`}><Button>Nein</Button></Link>
+                <Link href={`/`}><Button>Start</Button></Link>
             </div>
             <br/>
             <br/>
