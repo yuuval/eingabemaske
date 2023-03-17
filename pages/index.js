@@ -19,6 +19,7 @@ export default function IndexPage() {
                 <Link href={`/first`}><Button>Ja</Button></Link>
                 <Link href={`/desaster`}><Button>Nein</Button></Link>
             </div>
+            <h1>Ben</h1>
             <br/>
             <br/>
             <div>
